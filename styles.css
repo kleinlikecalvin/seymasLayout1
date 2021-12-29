@@ -1,8 +1,9 @@
 :root {
-  --contPadding: 0 50px;
+  --contPadding: 30px 40px;
   --pink: #d95252;
   --grey: #f3f3f3;
   --green: #21523d;
+  --shadow: 5px 5px 10px -5px #595959;
 }
 body {
   background-color: #f3f3f3;
@@ -30,11 +31,12 @@ body {
 }
 .mainImgCont {
   width: 300px;
-  height: 400px;
+  height: 300px;
   overflow: hidden;
   margin: auto;
+  box-shadow: var(--shadow);
 }
-.headerAndImgCont img {
+.mainImgCont img {
   width: 400px;
   object-fit: cover;
   margin-left: -50px;
@@ -77,6 +79,7 @@ body {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
+  box-shadow: var(--shadow);
 }
 .formCont h3 {
   text-align: center;
@@ -94,7 +97,7 @@ body {
   object-fit: fill;
 }
 .accountLink {
-  text-align: center;
+  margin: auto;
 }
 .accountLink a {
   text-decoration: none;
