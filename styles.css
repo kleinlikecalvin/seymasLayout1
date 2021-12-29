@@ -129,7 +129,6 @@ hr {
 }
 .accountLinkCont a {
   text-decoration: none;
-  font-weight: bold;
   color: var(--green);
   transition: 0.5s;
 }
