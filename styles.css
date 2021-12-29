@@ -6,12 +6,12 @@
 }
 body {
   background-color: #f3f3f3;
+  font-family: "Poppins", sans-serif;
 }
 .mainCont {
   margin: 50px auto;
   width: 1024px;
   display: flex;
-  font-family: Arial, Helvetica, sans-serif;
   color: var(--green);
 }
 .headerAndImgCont {
@@ -26,6 +26,7 @@ body {
   letter-spacing: 2px;
   font-size: 63px;
   margin-bottom: 0;
+  font-family: "Londrina Outline", cursive;
 }
 .mainImgCont {
   width: 300px;
@@ -45,7 +46,6 @@ body {
 }
 .formCont h2 {
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
   font-weight: 100;
 }
 .formCont input {
