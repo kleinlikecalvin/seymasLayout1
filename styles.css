@@ -1,5 +1,5 @@
 :root {
-  --contPadding: 0 60px;
+  --contPadding: 0 50px;
   --pink: #d95252;
   --grey: #f3f3f3;
   --green: #21523d;
@@ -9,6 +9,7 @@ body {
 }
 .mainCont {
   margin: 50px auto;
+  width: 1024px;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--green);
