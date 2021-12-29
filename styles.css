@@ -1,0 +1,96 @@
+body {
+  background-color: #f3f3f3;
+  --contPadding: 0 60px;
+  --pink: #d95252;
+  --grey: #f3f3f3;
+  --green: #21523d;
+}
+.mainCont {
+  margin: 50px auto;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--green);
+}
+.headerAndImgCont {
+  background-color: var(--pink);
+  text-align: center;
+  width: 50%;
+  padding: var(--contPadding);
+}
+.headerAndImgCont h1 {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 63px;
+  margin-bottom: 0;
+}
+.headerAndImgCont img {
+  width: 400px;
+  margin-bottom: 40px;
+}
+.formCont {
+  padding: var(--contPadding);
+  width: 50%;
+  background-color: white;
+}
+.formCont h2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+}
+.formCont input {
+  display: block;
+  border: none;
+  background-color: var(--grey);
+  border-radius: 3px;
+  height: 30px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#togglePassword {
+  position: absolute;
+  margin-top: -47px;
+  margin-left: 300px;
+}
+#togglePassword:hover {
+  cursor: pointer;
+}
+#togglePassword:active {
+  color: grey;
+}
+#btn {
+  background-color: var(--green);
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.formCont h3 {
+  text-align: center;
+}
+.iconsCont {
+  display: flex;
+  justify-content: space-around;
+}
+.iconCont {
+  border-radius: 50%;
+  width: 75px;
+}
+.iconCont img {
+  width: 75px;
+  object-fit: fill;
+}
+.accountLink {
+  text-align: center;
+}
+.accountLink a {
+  text-decoration: none;
+  font-weight: bold;
+  color: grey;
+}
+.accountLink a:hover {
+  color: var(--green);
+}
