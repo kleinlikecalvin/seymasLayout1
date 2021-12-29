@@ -68,16 +68,16 @@ body {
   margin: auto;
   margin-bottom: 20px;
 }
-#togglePassword {
+#passwordShow {
   position: absolute;
   margin-top: -47px;
-  margin-left: 300px;
+  margin-left: 400px;
 }
-#togglePassword:hover {
+#passwordShow:hover {
   cursor: pointer;
 }
-#togglePassword:active {
-  color: grey;
+#passwordShow:active {
+  color: var(--hoverGreen);
 }
 #btn {
   background-color: var(--green);
