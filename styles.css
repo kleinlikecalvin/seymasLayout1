@@ -1,8 +1,8 @@
 :root {
   --contPadding: 30px 40px;
-  --pink: #d95252;
+  --pink: #f49693;
   --grey: #f3f3f3;
-  --green: #21523d;
+  --green: #38562f;
   --shadow: 5px 5px 10px -5px #595959;
 }
 body {
@@ -81,6 +81,7 @@ body {
   margin-bottom: 20px;
   box-shadow: var(--shadow);
 }
+
 .formCont h3 {
   text-align: center;
 }
@@ -98,14 +99,17 @@ body {
 .iconCont img {
   width: 75px;
 }
-.accountLink {
-  margin: auto;
+.accountLinkCont {
+  text-align: center;
+  margin-top: 30px;
 }
-.accountLink a {
+.accountLinkCont a {
   text-decoration: none;
   font-weight: bold;
-  color: grey;
-}
-.accountLink a:hover {
   color: var(--green);
+  transition: 0.5s;
+}
+.accountLinkCont a:hover {
+  color: var(--pink);
+  transition: 0.5s;
 }
