@@ -1,9 +1,11 @@
-body {
-  background-color: #f3f3f3;
+:root {
   --contPadding: 0 60px;
   --pink: #d95252;
   --grey: #f3f3f3;
   --green: #21523d;
+}
+body {
+  background-color: #f3f3f3;
 }
 .mainCont {
   margin: 50px auto;
