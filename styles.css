@@ -68,13 +68,14 @@ body {
   margin: auto;
   margin-bottom: 20px;
 }
-#passwordShow {
+#passwordShow,
+#passwordNoShow {
   position: absolute;
   margin-top: -50px;
   margin-left: 390px;
 }
 #passwordShow:hover,
-#passwordNoShow {
+#passwordNoShow:hover {
   cursor: pointer;
 }
 #passwordShow:active,
