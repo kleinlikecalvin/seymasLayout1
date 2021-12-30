@@ -1,23 +1,18 @@
 const showPassIcon = document.getElementById("showPass");
 const hidePassIcon = document.getElementById("hidePass");
 
-showPassIcon.addEventListener("click", showPassword);
+hidePassIcon.addEventListener("click", showPassword);
 
 function showPassword() {
-    console.log("YEEEE");
-    if(showPassIcon.style.visibility == "hidden") {
-        console.log("show");
+    console.log("show");
         showPassIcon.style.visibility = "visible";
         hidePassIcon.style.visibility = "hidden";
-    }
 }
 
-hidePassIcon.addEventListener("click", hidePassword);
+showPassIcon.addEventListener("click", hidePassword);
 
 function hidePassword() {
     console.log("hideeee");
-    if(hidePassIcon.style.visibility == "hidden") {
-        hidePassIcon.style.display = "visible";
+        hidePassIcon.style.visibility = "visible";
         showPassIcon.style.visibility = "hidden";
-    }  
 }
