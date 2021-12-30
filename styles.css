@@ -69,24 +69,24 @@ body {
   margin: auto;
   margin-bottom: 20px;
 }
-#passwordNoShow {
-  display: none;
+#hidePass {
+  visibility: visible;
 }
-#passwordShow {
-  display: inline;
+#showPass {
+  visibility: hidden;
 }
-#passwordShow,
-#passwordNoShow {
+#showPass,
+#hidePass {
   position: absolute;
   margin-top: -50px;
   margin-left: 390px;
 }
-#passwordShow:hover,
-#passwordNoShow:hover {
+#showPass:hover,
+#hidePass:hover {
   cursor: pointer;
 }
-#passwordShow:active,
-#passwordNoShow:active {
+#showPass:active,
+#hidePass:active {
   color: var(--hoverGreen);
 }
 #btn {
@@ -187,8 +187,8 @@ hr {
   .formCont input {
     width: 85%;
   }
-  #passwordShow,
-  #passwordNoShow {
+  #showPass,
+  #hidePass {
     position: absolute;
     margin-top: -50px;
     margin-left: 325px;
